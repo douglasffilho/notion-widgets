@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "@svgr/webpack": "8.1.0",
-    "axios": "1.7.2",
     "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -37,6 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
+    "axios": "1.7.3",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
