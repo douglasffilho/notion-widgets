@@ -1,0 +1,53 @@
+{
+  "name": "gcamposengenharia",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:douglasffilho/gcamposengenharia.git",
+  "author": "Douglas Fernandes <douglasf.filho@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix --ignore-pattern '!.prettierrc.js'",
+    "test": "echo 'no tests found'",
+    "clean": "chmod +x clean && ./clean"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npm run lint:fix",
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "dependencies": {
+    "@svgr/webpack": "8.1.0",
+    "axios": "1.7.2",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-query": "3.39.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-simple-import-sort": "12.1.0",
+    "eslint-plugin-sonarjs": "1.0.3",
+    "git-cz": "4.9.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.5",
+    "prettier": "3.2.5"
+  }
+}

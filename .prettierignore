@@ -1,0 +1,6 @@
+# Ignore :
+build
+.next
+node_modules
+out_publish
+out_functions

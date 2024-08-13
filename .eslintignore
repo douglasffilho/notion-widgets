@@ -1,0 +1,6 @@
+// .eslintignore
+node_modules
+db
+out_publish
+out_functions
+.prettierrc.js

@@ -1,0 +1,17 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".md",
+            ".mdx",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    "editor.tabCompletion": "on"
+}

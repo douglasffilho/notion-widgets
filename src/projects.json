@@ -1,0 +1,42 @@
+{
+  "azul": {
+    "id": "azul",
+    "name": "Azul",
+    "description": "Projeto Azul Linhas Aéreas Recife",
+    "briefing": "Todos sabemos o quanto é agradável trabalhar num ambiente novinho! E a Azul linhas aéreas Recife, escolheu e Gcampos para oferecer diante de uma grande reforma um ambiente ainda mais acolhedor e confortável para toda sua equipe de manutenção das aeronaves! E foi uma grande satisfação participar desse progresso! Obrigado pela escolha, Azul!",
+    "media": "https://www.instagram.com/p/C9QNvOBOtjQ",
+    "images": 4
+  },
+  "brasserie": {
+    "id": "brasserie",
+    "name": "Brasserie",
+    "description": "Projeto Brasserie Hotel Atlante Plaza Recife",
+    "briefing": "Tivemos a grande oportunidade de trabalhar junto ao eleito melhor Hotel do Recife no Traveller’s Choice 2023 do TripAdvisor! Trazendo ainda mais sofisticação e charme ao restaurante Brasserie, proporcionando para todos os hóspedes e frequentadores do hotel através de uma grande reforma, um ambiente acolhedor, junto a uma experiência surpreendente e aconchegante!",
+    "media": "https://www.instagram.com/p/C9fnXCPu7N6",
+    "images": 1
+  },
+  "cultura-inglesa": {
+    "id": "cultura-inglesa",
+    "name": "Cultura Inglesa",
+    "description": "Projeto Cultura Inglesa",
+    "briefing": "A Cultura Inglesa é uma instituição com mais de 80 anos de atuação. Presente na maioria dos estados do Brasil, traduz excelência no ensino do inglês, e nós da GCampos tivemos o privilégio de, com agilidade e qualidade, entregar esse lindo resultado num curto espaço de tempo, através de uma grande reforma na unidade Boa Viagem, oferecendo aos seus alunos e colaboradores um ambiente super agradável para dessa forma garantir um desenvolvimento educacional de ultima geração!",
+    "media": "https://www.instagram.com/p/C9ue8fguapR",
+    "images": 3
+  },
+  "somar": {
+    "id": "somar",
+    "name": "Somar",
+    "description": "Projeto Somar",
+    "briefing": "Concluída a reforma para a Somar! O grupo Somar está há quase 20 anos melhorando a qualidade de vida das pessoas com autismo e seus familiares. Com muita satisfação ajudamos através da reforma oferecer um ambiente mais acolhedor!",
+    "media": "https://www.instagram.com/p/C9A5xwXOHFn",
+    "images": 18
+  },
+  "summerville": {
+    "id": "summerville",
+    "name": "Summerville - Sport Bar",
+    "description": "Projeto Summerville - Sport Bar",
+    "briefing": "O Summerville Resort foi avaliado como o melhor All inclusive da América do Sul pelo prêmio Travellers’ Choice 2023, do TripAdvisor! E Nós da GCampos engenharia ficamos muito felizes em oferecer através de uma grande reforma,um ar de modernidade e sofisticação ao Sportbar que fica localizado dentro do resort, e é uma das muitas opções de diversão e descanso para seus hospedes!",
+    "media": "https://www.instagram.com/p/C-JAAJJu6ud",
+    "images": 3
+  }
+}
