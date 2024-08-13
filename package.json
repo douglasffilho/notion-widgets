@@ -1,8 +1,8 @@
 {
-  "name": "gcamposengenharia",
+  "name": "notion-widgets",
   "version": "1.0.0",
   "private": true,
-  "repository": "git@github.com:douglasffilho/gcamposengenharia.git",
+  "repository": "git@github.com:douglasffilho/notion-widgets.git",
   "author": "Douglas Fernandes <douglasf.filho@gmail.com>",
   "license": "MIT",
   "scripts": {
