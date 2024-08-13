@@ -17,7 +17,6 @@ const DATA_SRC = 'data:';
 const csp = {
   'object-src': [SELF_CONTENT_SRC, W3_CONTENT],
   'default-src': [SELF_CONTENT_SRC],
-  'frame-src': [SELF_CONTENT_SRC],
   'script-src': [SELF_CONTENT_SRC, JS_CDN, SOURCE_CONTENT, DATA_SRC],
   'style-src': [
     SELF_CONTENT_SRC,
@@ -34,7 +33,6 @@ const csp = {
     DATA_SRC,
   ],
   'img-src': [SELF_CONTENT_SRC, CLOUDINARY_CDN, GRAVATAR_CDN],
-  'frame-ancestors': [SELF_CONTENT_SRC],
   'font-src': [SELF_CONTENT_SRC, GOOGLE_FONTS_SRC, JS_CDN],
   'connect-src': [SELF_CONTENT_SRC, SOURCE_CONTENT],
 };
@@ -53,7 +51,6 @@ module.exports = {
       'Strict-Transport-Security':
         'max-age=3124138248000; includeSubDomains; preload;',
       'X-Content-Type-Options': 'nosniff',
-      'X-Frame-Options': 'SAMEORIGIN',
       'X-XSS-Protection': '1; mode=block',
       'Referrer-Policy': 'same-origin',
     };
