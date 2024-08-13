@@ -7,24 +7,38 @@
 html {
   scroll-behavior: smooth;
   transition: scroll 1s;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+
+  & > div {
+    height: 100%;
+  }
 }
 
 ul {
   list-style-type: none;
 }
 
-.weather-days {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
+.weather-widget {
+  background-color: #fefefe;
+  height: 100%;
 
-  & li {
-    background-color: #cecece;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
+  .weather-days {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    & li {
+      background-color: #cecece;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+    }
   }
 }
