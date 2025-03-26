@@ -11,7 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix --ignore-pattern '!.prettierrc.js'",
+    "lint:fix": "eslint . --fix",
     "test": "echo 'no tests found'",
     "clean": "chmod +x clean && ./clean"
   },
@@ -45,6 +45,7 @@
     "eslint-plugin-simple-import-sort": "12.1.1",
     "eslint-plugin-sonarjs": "3.0.2",
     "git-cz": "4.9.0",
+    "globals": "16.0.0",
     "husky": "9.1.7",
     "lint-staged": "15.5.0",
     "prettier": "3.5.3"
